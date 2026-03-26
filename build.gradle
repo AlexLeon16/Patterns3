@@ -32,6 +32,7 @@ test {
     useJUnitPlatform()
     systemProperty "selenide.headless", System.getProperty("selenide.headless", "false")
 
+
     testLogging {
         events 'passed', 'skipped', 'failed'
         showExceptions = true
